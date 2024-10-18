@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.btn_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+
+}
+
+.content_div {
+    width: 100%;
+    height: 55vh;
+    max-height: 55vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: left;
+    padding: 20px;
+}
+
+.files_container {
+    height: 100px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+mark {
+    background-color: yellow;
+}
+
+#fileListUl {
+    list-style: none;
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    justify-content: center;
+}
+
+#savedFileHeader {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
